@@ -6,11 +6,12 @@
    <UUID>79913407-8994-40ad-9829-df402eb74e5c</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.2.0</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.2.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>E:\Project\QA_quality_assurance\katalon-project\Katalon-API_Testing\Katalon-API_Testing.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
