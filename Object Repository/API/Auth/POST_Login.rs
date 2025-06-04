@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>POST_Login_Unsuccessful</name>
+   <name>POST_Login</name>
    <tag></tag>
-   <elementGuidId>ef8faf2b-ccdd-4d23-ba43-f5159875b9e6</elementGuidId>
+   <elementGuidId>3d926176-777e-431d-991d-328efda2f220</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;${email}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;${email}\&quot;,\n    \&quot;password\&quot;: \&quot;${password}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,6 +47,20 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>'eve.holt@reqres.in'</defaultValue>
+      <description></description>
+      <id>276e802a-b137-4d78-9a89-1daa0935b007</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variables>
+   <variables>
+      <defaultValue>'P455W0RD'</defaultValue>
+      <description></description>
+      <id>97e83a92-2a9f-4b69-895c-a4e3002a918b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -59,16 +73,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-// Parse JSON response
-def jsonSlurper = new JsonSlurper()
-def jsonResponse = jsonSlurper.parseText(response.getResponseBodyContent())
-
-WS.verifyResponseStatusCode(response, 400)
-assertThat(response.getStatusCode()).isEqualTo(400)
-
-assertThat(jsonResponse.error).isNotNull()
-assertThat(jsonResponse.error).isNotEmpty()
-assertThat(jsonResponse.error).isEqualTo(&quot;Missing password&quot;)</verificationScript>
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
