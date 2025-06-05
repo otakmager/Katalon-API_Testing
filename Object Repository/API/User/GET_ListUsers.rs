@@ -54,19 +54,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-// Parse JSON response
-def jsonSlurper = new JsonSlurper()
-def jsonResponse = jsonSlurper.parseText(response.getResponseBodyContent())
-
-WS.verifyResponseStatusCode(response, 200)
-assertThat(response.getStatusCode()).isEqualTo(200)
-
-assertThat(jsonResponse.page).isEqualTo(${page})
-jsonResponse.data.each { user ->
-	asserThat(user.id).isNotNull()
-	assertThat(user.email).isNotEmpty()
-	assertThat(user.email).contains(&quot;@reqres.in&quot;)
-}</verificationScript>
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

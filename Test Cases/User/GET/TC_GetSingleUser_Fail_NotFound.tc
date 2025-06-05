@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GetSingleUser_Fail_NotFound</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>313ecfff-e099-448f-944e-a71fe5e029fe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fcf6685-dd6e-41a1-90f6-3ebc7b9e42b2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>99999</defaultValue>
+      <description></description>
+      <id>2fcf6685-dd6e-41a1-90f6-3ebc7b9e42b2</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+</TestCaseEntity>
