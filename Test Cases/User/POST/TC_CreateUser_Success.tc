@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CreateUser_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08bf5125-5d4d-4607-be03-6fcdac8ec42f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1800b8e-66dd-415b-834b-801bfeed6f68</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a2cd8c9-5d24-4c96-a04c-9e5f7493bb88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dimas'</defaultValue>
+      <description></description>
+      <id>d1800b8e-66dd-415b-834b-801bfeed6f68</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA Engineer'</defaultValue>
+      <description></description>
+      <id>3a2cd8c9-5d24-4c96-a04c-9e5f7493bb88</id>
+      <masked>false</masked>
+      <name>job</name>
+   </variable>
+</TestCaseEntity>

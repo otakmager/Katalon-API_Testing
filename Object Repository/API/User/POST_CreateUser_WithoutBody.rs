@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>POST_CreateUser</name>
+   <name>POST_CreateUser_WithoutBody</name>
    <tag></tag>
-   <elementGuidId>58570e09-2f95-4d81-b562-568f0414c09d</elementGuidId>
+   <elementGuidId>40869009-d925-49ea-8a59-6f3ab7d08f86</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n\t\&quot;name\&quot;: \&quot;${name}\&quot;,\n\t\&quot;job\&quot;: \&quot;${job}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,20 +47,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>'Dimas'</defaultValue>
-      <description></description>
-      <id>9c7fff1a-3c6f-4edc-90db-6ebccae26c85</id>
-      <masked>false</masked>
-      <name>name</name>
-   </variables>
-   <variables>
-      <defaultValue>'Software Engineer'</defaultValue>
-      <description></description>
-      <id>a0940747-4ab8-4b7e-84e5-b37b6bf78662</id>
-      <masked>false</masked>
-      <name>job</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

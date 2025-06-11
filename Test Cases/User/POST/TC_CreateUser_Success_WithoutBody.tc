@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CreateUser_Success_WithoutBody</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ea3211d-8c27-4c94-8dd4-004bdeb9f720</testCaseGuid>
+</TestCaseEntity>
