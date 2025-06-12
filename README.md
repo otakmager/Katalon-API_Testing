@@ -2,8 +2,8 @@
 
 This project implements **automated API testing** using **Katalon Studio 10.2.0**, targeting the [`https://reqres.in/`](https://reqres.in/) API. It includes **data-driven**, **negative**, **smoke**, and **regression** test suites covering key API endpoints related to user authentication and user management.
 
-> ✅ Target URL: [https://reqres.in/](https://reqres.in/)
-📦 GitHub Repo: [https://github.com/otakmager/Katalon-API\_Testing](https://github.com/otakmager/Katalon-API_Testing)
+> ✅ Target URL: [https://reqres.in/](https://reqres.in/)<br>
+> 📦 GitHub Repo: [https://github.com/otakmager/Katalon-API_Testing](https://github.com/otakmager/Katalon-API_Testing)
 
 ---
 
@@ -69,7 +69,7 @@ Katalon-API_Testing/
 
 ## 📄 Sample Reports
 
-You can preview test results in PDF format (exported from Katalon Studio):
+You can preview test results in PDF format:
 
 | Report Name                | Link                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------- |
