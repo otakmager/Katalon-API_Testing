@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_DataDriven_CreateUser</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>5e3bbfa6-60be-477c-80e7-17e8f5c29c4e</testSuiteGuid>
+   <testCaseLink>
+      <guid>d88d4614-a376-44d1-ac00-a570a3f5fa66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User/POST/TC_CreateUser_Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>66250fa9-23b8-439f-9cdf-7fb8c16f334d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TD_CreateUser</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>66250fa9-23b8-439f-9cdf-7fb8c16f334d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>d1800b8e-66dd-415b-834b-801bfeed6f68</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>66250fa9-23b8-439f-9cdf-7fb8c16f334d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>job</value>
+         <variableId>3a2cd8c9-5d24-4c96-a04c-9e5f7493bb88</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
