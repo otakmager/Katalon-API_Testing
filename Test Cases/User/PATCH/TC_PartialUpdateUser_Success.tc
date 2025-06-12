@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PartialUpdateUser_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90f5e755-e62f-49eb-82aa-ec12f030efe3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0dc76d69-a509-4b22-91f7-ec943c7f3ace</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec1cedb8-7a56-449d-ad79-86b66a735d22</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dimdimdim'</defaultValue>
+      <description></description>
+      <id>0dc76d69-a509-4b22-91f7-ec943c7f3ace</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>ec1cedb8-7a56-449d-ad79-86b66a735d22</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+</TestCaseEntity>

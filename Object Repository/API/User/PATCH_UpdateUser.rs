@@ -73,18 +73,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-// Parse JSON response
-def jsonSlurper = new JsonSlurper()
-def jsonResponse = jsonSlurper.parseText(response.getResponseBodyContent())
-def user = jsonResponse.data
-
-WS.verifyResponseStatusCode(response, 201)
-assertThat(response.getStatusCode()).isEqualTo(201)
-
-assertThat(user.name).isNotNull()
-assertThat(user.name).isEqualTo(${name})
-assertThat(user.job).isNotNull()
-assertThat(user.job).isEqualTo(${name})</verificationScript>
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
